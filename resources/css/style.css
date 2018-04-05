@@ -29,7 +29,7 @@ html {
   padding: 6px 44px;
   font-size: 21px;
 }
-.btn-success {
+.btn-success, .btn-success:active:focus, .btn-success:active, .btn-success:active:visited, .btn-success:active, .btn-success:focus  {
   color: black;
   background-color: rgb(255, 0, 171);
   border-color: unset;
@@ -40,6 +40,7 @@ html {
   border-color: unset;
 }
 
+
 /* Infotabs */
 
 .infotabs {
@@ -48,4 +49,19 @@ html {
   color: white;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+/* Track List */
+
+#track-list {
+  padding-top: 11rem;
+}
+.track {
+  display: flex;
+}
+.track div {
+
+}
+.glyphicon-play-circle {
+  
 }
